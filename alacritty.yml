@@ -1,0 +1,118 @@
+# window dimensions
+window:
+ #dimensions:
+   columns: 0
+   lines: 0
+
+# window position
+position:
+   x: 0
+   y: 0
+
+ # window padding
+padding:
+   x: 3
+   y: 3
+
+# window decorations
+decorations: none
+
+# window start mode
+startup_mode: Maximized
+
+# window title
+title: terminal
+
+# scrollback buffer value
+scrolling:
+ history: 20000
+
+
+# font config
+font:
+ # normal font face
+ normal:
+   # font family
+   family: monospace
+
+   style: Regular
+
+ # bold font face
+ bold:
+   # font family
+   family: monospace
+
+   style: Bold
+
+ # italic font face
+ italic:
+   # font family
+   family: monospace
+
+   style: Italic
+
+ # bold italic font face
+ bold_italic:
+   # font family
+   family: monospace
+
+   style: Bold Italic
+
+ # Point size
+ size: 8.0
+
+ # offset space around each char
+ offset:
+   x: 1
+   y: 1
+
+# color config
+colors:
+ # default colors
+ primary:
+   background: '#011627'
+   foreground: '#acb4c2'
+
+ # cursor colors
+ cursor:
+   text: '#080808'
+   cursor: '#9ca1aa'
+
+ # selection colors
+ selection:
+   text: '#080808'
+   background: '#b2ceee'
+
+ # normal colors
+ normal:
+   black:   '#000000'
+   red:     '#d54e53'
+   green:   '#b9ca4a'
+   yellow:  '#e6c547'
+   blue:    '#7aa6da'
+   magenta: '#c397d8'
+   cyan:    '#70c0ba'
+   white:   '#eaeaea'
+
+ # bright colors
+ bright:
+   black:   '#666666'
+   red:     '#ff3334'
+   green:   '#9ec400'
+   yellow:  '#e7c547'
+   blue:    '#7aa6da'
+   magenta: '#b77ee0'
+   cyan:    '#54ced6'
+   white:   '#ffffff'
+
+ # dim colors
+ dim:
+   black:   '#000000'
+   red:     '#8c3336'
+   green:   '#7a8530'
+   yellow:  '#97822e'
+   blue:    '#506d8f'
+   magenta: '#80638e'
+   cyan:    '#497e7a'
+   white:   '#9a9a9a'
+
