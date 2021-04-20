@@ -1,4 +1,4 @@
-" nvim dev settings
+
 " ----------------
 "  github.com/b3nj1r
 " ----------------
@@ -6,7 +6,10 @@
 call plug#begin('~/.vim/plugged')
 Plug 'HerringtonDarkholme/yats.vim' | "TS Syntax
 Plug 'airblade/vim-gitgutter' | "git info in editor
-Plug 'bluz71/vim-nightfly-guicolors' | "color scheme
+"Plug 'bluz71/vim-nightfly-guicolors' | "color scheme
+"Plug 'tyrannicaltoucan/vim-deep-space' |
+"Plug 'arcticicestudio/nord-vim'
+Plug 'cocopon/iceberg.vim'
 Plug 'chr4/nginx.vim' | "nginx colors
 Plug 'itchyny/lightline.vim' | "Status bar
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' } | "Installs FZF on the system.
@@ -69,14 +72,18 @@ set tabstop=2 | "two spaces
 set shiftwidth=2 | "two spaces
 
 " color settings
-set termguicolors |
-colorscheme nightfly
-let g:lightline = { 'colorscheme': 'nightfly' }
-let g:nightflyCursorColor = 1
-let g:nightflyUnderlineMatchParen = 1
+"set termguicolors |
+"colorscheme nightfly
+"let g:lightline = { 'colorscheme': 'nightfly' }
+"let g:nightflyCursorColor = 1
+"let g:nightflyUnderlineMatchParen = 1
 
 hi Comment cterm=italic
 set background=dark
+set termguicolors
+colorscheme iceberg
+let g:deepspace_italics=1
+
 
 " coc extensions
 let g:coc_global_extensions = [
