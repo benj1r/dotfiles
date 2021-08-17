@@ -68,8 +68,8 @@ set incsearch | "incremental search
 " indentation settings
 set cindent | "smart indentation
 set expandtab | "tabs convert to spaces
-set tabstop=2 | "two spaces
-set shiftwidth=2 | "two spaces
+set tabstop=4 | "two spaces
+set shiftwidth=4 | "two spaces
 
 " color settings
 "set termguicolors |
