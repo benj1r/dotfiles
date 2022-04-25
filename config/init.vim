@@ -72,3 +72,6 @@ let g:coc_global_extensions = [
     \ 'coc-pairs',
     \ 'coc-snippets',
     \]
+
+let g:python3_host_prog = '/usr/bin/python3.8'
+

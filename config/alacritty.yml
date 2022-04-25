@@ -1,12 +1,3 @@
- #________________________________________________ 
- # ______  ______  ____   _    ____  _____  _____   
- #|      >|   ___||    \ | |  |    ||_    ||     |  
- #|     < |   ___||     \| | _|    | |    ||     \  
- #|______>|______||__/\____||______| |____||__|\__\                                                   
- #_________________________________________________
-
-
-
 # window dimensions
 window:
    columns: 0
@@ -78,38 +69,38 @@ font:
 colors:
  # default colors
  primary:
-   background: '#0e1111'
-   foreground: '#808080'
+   background: '#060606'
+   foreground: '#cccccc'
 
  # cursor colors
  cursor:
-   text: '#0e1111'
-   cursor: '#808080'
+   text: '#060606'
+   cursor: '#cccccc'
 
  # selection colors
  selection:
-   text: '#0e1111'
-   background: '#808080'
+   text: '#060606'
+   background: '#cccccc'
 
  # normal colors
  normal:
-   black:   '#0e1111'
-   red:     '#b6403a'
-   green:   '#9999aa'
-   yellow:  '#ffff00' 
-   blue:    '#778899'
-   magenta: '#B3ACE2'
-   cyan:    '#c6c8d1'
-   white:   '#ffffff'
+   black:   '#090909'
+   red:     '#cc0303'
+   green:   '#909090'
+   yellow:  '#e0e000' 
+   blue:    '#eeeeee'
+   magenta: '#6000E0'
+   cyan:    '#003040'
+   white:   '#303030'
 
  # bright colors
  bright:
-   black:   '#6b7089'
-   red:     '#c2c4ce'
-   green:   '#95c4ce'
-   yellow:  '#e9b189'
-   blue:    '#91acd1'
-   magenta: '#ada0d3'
-   cyan:    '#95c4ce'
-   white:   '#d2d4de'
+   black:   '#030303'
+   red:     '#cc0303'
+   green:   '#909090'
+   yellow:  '#e0e000' 
+   blue:    '#eeeeee'
+   magenta: '#6000E0'
+   cyan:    '#003040'
+   white:   '#aaaaaa'
 
